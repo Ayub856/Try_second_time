@@ -1,0 +1,78 @@
+.container {
+	max-width: 1600px;
+	padding: 0 210px;
+	box-sizing: border-box;
+}
+.header_top {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+
+}
+.header ul {
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+.header ul li {
+	display: inline-block;
+	padding-left:36px;
+}
+.header ul li: first-child {
+	padding-left:0;
+}
+.header ul li a {
+	color: #242F51;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	text-decoration:none;
+
+}
+.special_btn {
+	background-color:blue;
+	padding:15px 40px;
+	border-radius: 30px;
+	color: #fff !important;
+	font-weight:800;
+
+}
+
+
+.images_2 {
+	display: flex;
+	justify-content: space-between;
+	padding-top:0px;
+
+}
+.heding_1{
+	
+	 background-color: E2EAED;
+	 border-radius:30px;
+	 font-size:18px;
+	 color:242F51;
+}
+.para{
+	color:616368;
+}
+
+.hero_area {
+	display:  flex;
+	justify-content: space-between;
+	align-items:  center;
+}
+
+.big_button {
+  display: flex;
+  align-items:  center;
+  background-color: #E2EAED;
+  border-radius: 30px;
+}
+
+.big_button p {
+	padding-left: 10px;
+	margin: 0;
+}
+
+.big_button .button_icon {
+	display:  inherit;
+}
